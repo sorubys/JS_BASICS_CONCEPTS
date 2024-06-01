@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS BASICS</title>
+</head>
+<body>
+    <script>
+        //for loop
+        let x;
+        for(x=0; x<5; x++)
+        console.log(x)
+
+        //while loop
+        let a = 1;
+        while(a<=5){
+        console.log(a);
+        a++;
+        }
+
+        //do while loop
+        let y = 15;
+        do{
+            console.log(y);
+            y++;
+        }
+        while(y<10)
+
+        //break
+        let i;
+        for(i=1; i<10; i++){
+            document.write(i+ " This is the current number" + "<br>");
+            if(i == 5){
+                break;
+            }
+        }
+
+        //continue
+        let j;
+        for(j=1; j<10; j++){
+            if(j==3){
+                continue;
+            }
+            document.write(j + "This is the current number" + "<br>");
+        }
+        
+    </script>
+    
+</body>
+</html>
